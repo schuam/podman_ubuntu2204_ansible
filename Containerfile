@@ -20,4 +20,4 @@ RUN rm -f /lib/systemd/system/systemd*udev* \
     && rm -f /lib/systemd/system/getty.target
 
 # Add entrypoint
-ENTRYPOINT ["/usr/sbin/init"]
+ENTRYPOINT ["/lib/systemd/systemd"]
